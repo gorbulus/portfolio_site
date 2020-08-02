@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "williamaponton", "williamaponton\williamaponton.csproj", "{E38DA5F9-AF53-453F-B6A8-E49C83A3B531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "williamaponton.Tests", "williamaponton.Tests\williamaponton.Tests.csproj", "{BDE28E18-F553-4912-9517-22C708C6B236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E38DA5F9-AF53-453F-B6A8-E49C83A3B531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38DA5F9-AF53-453F-B6A8-E49C83A3B531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38DA5F9-AF53-453F-B6A8-E49C83A3B531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38DA5F9-AF53-453F-B6A8-E49C83A3B531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE28E18-F553-4912-9517-22C708C6B236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE28E18-F553-4912-9517-22C708C6B236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE28E18-F553-4912-9517-22C708C6B236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE28E18-F553-4912-9517-22C708C6B236}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D336062-DFA8-4511-AD18-7E7F7B999ECB}
+	EndGlobalSection
+EndGlobal
