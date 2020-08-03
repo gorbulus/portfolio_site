@@ -9,7 +9,7 @@ namespace williamaponton
 {
     /// <summary>
     /// Default.aspx
-    /// The Home Page for Ponton Insurance Group, LLC
+    /// The defaulte page for portfolio_site
     /// </summary>
     public partial class _Default : Page
     {
@@ -20,74 +20,59 @@ namespace williamaponton
 
         /// <summary>
         /// btnContact
-        /// Redirects to the ContactInfo.aspx page.
+        /// Redirects to the Contact.aspx page.
         /// </summary>
         /// <param name="sender">Control initiating event</param>
         /// <param name="e">Event argument</param>
         protected void btnContact_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/ContactInfo");
+            ///Redirect to Contact.aspx
+            Response.Redirect("~/Contact");
         }
 
         /// <summary>
-        /// btnQuote
-        /// Redirects user to the QuoteInfo.aspx page after checking
-        /// if a Contact Object is saved in Session State.
+        /// btnProjects
+        /// Redirects user to the Projects.aspx page
         /// </summary>
         /// <param name="sender">Control initiating event</param>
         /// <param name="e">Event argument</param>
-        protected void btnQuote_Click(object sender, EventArgs e)
+        protected void btnProjects_Click(object sender, EventArgs e)
         {
-            //Checks session for a previously saved Contact Object
-            //and if true redirects to the QuoteInfo Page
-            if (Session["contact"] != null)
-            {
-                Response.Redirect("~/QuoteInfo");
-            }
-            else
-            {
-                //..otherwise, redirect to ContactInfo.aspx
-                Response.Redirect("~/ContactInfo");
-            }
+                /// Redirect to projects page
+                Response.Redirect("~/Projects");          
         }
 
         /// <summary>
-        /// Directs user to the Agent Info Page
+        /// btnTravel
+        /// Directs user to the Travel page
         /// </summary>
         /// <param name="sender">Control Initiating Event</param>
         /// <param name="e">Event Argument</param>
-        protected void btnAgents_Click(object sender, EventArgs e)
+        protected void btnTravel_Click(object sender, EventArgs e)
         {
-            lblSignIn.Visible = true;
-            lblInstructions.Visible = true;
-            lblUserName.Visible = true;
-            txtUserName.Visible = true;
-            lblPassword.Visible = true;
-            txtPassword.Visible = true;
-            btnLogin.Visible = true;
+            Response.Redirect("~/Travel");
         }
 
         /// <summary>
-        /// btnLogin
-        /// User Authorization
+        /// btnFood
+        /// Directs user to the Food page
         /// </summary>
         /// <param name="sender">Control Initiating Event</param>
         /// <param name="e">Event Argument</param>
-        protected void btnLogin_Click(object sender, EventArgs e)
+        protected void btnFood_Click(object sender, EventArgs e)
         {
-            string userName, password;
+            Response.Redirect("~/Food");
+        }
 
-            userName = txtUserName.Text.Trim();
-            password = txtPassword.Text.Trim();
-
-            if (userName != "admin" && password != "Password#123")
-            {
-                Response.Redirect("~/AgentForm");
-            }
-            else
-            {
-                Response.Redirect("~/AdminAgents");
-            }
+        /// <summary>
+        /// btnDogs
+        /// Directs user to the Food page
+        /// </summary>
+        /// <param name="sender">Control Initiating Event</param>
+        /// <param name="e">Event Argument</param>
+        protected void btnDogs_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Dogs");
         }
     }
 }

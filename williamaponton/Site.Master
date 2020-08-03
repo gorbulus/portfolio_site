@@ -59,13 +59,15 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/Projects">Projects</a></li>
-                        <li><a runat="server" href="~/Travel">Travel</a></li>
-                        <li><a runat="server" href="~/Food">Food</a></li>
-                        <li><a runat="server" href="~/Dogs">Dogs</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a href="mailto:waponton@gmail.com?subject=[Yo%20Will!]%20I%20saw%20your%20code%20and%20thought%20it%20was%20cool">💌 Email me</a></li>
+                        <li><a href="https://www.linkedin.com/in/williampontoncfsp">📜 LinkedIn</a></li>
+                        <li><a href="https://github.com/gorbulus">💻 GitHub</a></li>
+                        <li><a runat="server" href="~/Projects">🚀 Projects</a></li>
+                        <li><a runat="server" href="~/Travel">✈️ Travel</a></li>
+                        <li><a runat="server" href="~/Food">🍅 Food</a></li>
+                        <li><a runat="server" href="~/Dogs">🐕 Dogs</a></li>
+                        <li><a runat="server" href="~/About">💊 About</a></li>
+                        <li><a runat="server" href="~/Contact">♎ Info</a></li>
                     </ul>
                                        
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
@@ -90,8 +92,8 @@
         </div>
         <div class="container body-content">
              <div class="jumbotron" style="background-image: url('Images/SanJoseDeNoche.jpg')">
-                <h1>William A. Ponton</h1>
-                <p class="lead">Fast &bull; Accurate &bull; Reliable</p>
+                <h1>W. A. Ponton</h1>
+                <p class="lead">Tech &bull; Art &bull; Food</p>
             </div>
             
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
@@ -99,14 +101,14 @@
             <hr />
             <footer class="row">
                 <div class="col-md-4">
-                    <p>&copy; <%: DateTime.Now.Year %> - Ponton Enterprise Group, LLC</p>
+                    <p>&copy; <%: DateTime.Now.Year %> - Ponton Enterprises</p>
                 </div>
 
                 <div class="col-md-offset-4 col-md-2">
                     <strong class="support">Support:</strong>
                 </div>
                 <div class="col-md-2">
-                    <a href="mailto:waponton@gmail.com">waponton@gmail.com</a>
+                    <a href="mailto:waponton@gmail.com?subject=[Yo%20Will!]%20I%20saw%20your%20code%20and%20thought%20it%20was%20cool">💌 Email me</a>
                 </div>
             </footer>
         </div>
