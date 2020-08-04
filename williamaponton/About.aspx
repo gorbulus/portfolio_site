@@ -3,17 +3,29 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
     <h3>Temple of Jazzy</h3>
-    <p>This is a project site I made to share some of my favorite parts of life; travel, food, and dogs.
-       This site will also serve as a place to link all my future proejcts as they deploy.
-       My goals for this project are very simple:
-        1. Build and deploy a personal site to share my work and passions.
-        2. Use the site as a launching pad for other projects I complete.
-        3. Rekindle my passion for merging technology and lifestyle.
-        4. To do something I enjoy, coding!
+    <p>This site is a portfolio project that I am working on to share my work and my passion for travel, food, and puppers.</p>                        
+    <p>This site will also act as a launching pad for other projects and apps.</p>
+    <p>My goals for this Temple are very simple:</p>                                          
+    <ol>
+        <li>
+            Build and deploy a personal site to share my work and passions.
+        </li>
+        <li>
+            Use the site as a launching pad for other projects I complete.
+        </li>
+        <li>
+            Rekindle my passion for merging technology and lifestyle.
+        </li>
+        <li>
+            To do something I enjoy, coding!
+        </li>
+    </ol>
 
-        The name "Temple of Jazzy" is in reference to my Pit/Lab mix of the same name.
+    <h3>Temple of Jazzy</h3>
 
-        ©2020 Ponton Enterprises
+        The name is in reference to my faithful dog, Jazzy.  She is a good girl.
 
-    </p>
+        <p>©2020 Ponton Enterprises</p>
+
+    
 </asp:Content>
