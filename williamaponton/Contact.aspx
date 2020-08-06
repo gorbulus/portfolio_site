@@ -16,6 +16,7 @@
         <div class="col-md-4">
             <address>
                 Jazzy, the Dog <br />
+                Alpha <br />
                 Elemental goddess<br />
                 Jacksonville, FL<br />
             </address>
