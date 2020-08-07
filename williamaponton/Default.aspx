@@ -8,58 +8,64 @@
         Description:  The Default Page for portfolio site.
         -->
         <!-- Welcome Info -->
-        <div class="col-md-12">
-            <p>
-                Portfolio site information here
-                <br />
-                <br />
-                Mission statement, goals, overview
-            </p>
+        <div class="container">
+            <div class="col-md-12">
+                <p>
+                    Portfolio site information here
+                    <br />
+                    <br />
+                    Mission statement, goals, overview
+                </p>
+            </div>
         </div>
-
-        <!-- Button for ContactInfo Page -->
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Contact me</h2>
-                <p>
-                    <a href="mailto:waponton@gmail.com?subject=[Yo%20Will!]%20I%20saw%20your%20code%20and%20thought%20it%20was%20cool">💌 Email me</a>
-                </p>
-                <p>
-                    <a href="https://www.linkedin.com/in/williampontoncfsp">📜 LinkedIn</a>
-                </p>
-                <p>
-                    <a href="https://github.com/gorbulus">💻 GitHub</a>
-                </p>                   
-                <p>
-                    <asp:Button ID="btnContact" runat="server" Text="Contact &raquo;" class="btn btn-default" OnClick="btnContact_Click" />
-                </p>
-            </div>
-
-            <!-- Button for Projects Page -->
-            <div class="col-md-4">
-                <h2>Projects</h2>
-                <p>
-                    View my projects
-                </p>
-                <p>
-                    <asp:Button ID="btnProjects" runat="server" class="btn btn-default" Text="Projects &raquo;" OnClick="btnProjects_Click" />
-                </p>
-            </div>
-
-            <!-- Button for GitHub -->
+        
+        <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2>GitHub</h2>
+                    <!-- Button for ContactInfo Page -->
+                    <h2>Contact me</h2>
                     <p>
-                        Check out my Github!
+                        <a href="mailto:waponton@gmail.com?subject=[Yo%20Will!]%20I%20saw%20your%20code%20and%20thought%20it%20was%20cool">💌 Email me</a>
                     </p>
                     <p>
-                        <a class="btn btn-default" href="https://www.github.com/gorbulus">Github &raquo;</a>
+                        <a href="https://www.linkedin.com/in/williampontoncfsp">📜 LinkedIn</a>
                     </p>
+                    <p>
+                        <a href="https://github.com/gorbulus">💻 GitHub</a>
+                    </p>                   
+                    <p>
+                        <asp:Button ID="btnContact" runat="server" Text="Contact &raquo;" class="btn btn-default" OnClick="btnContact_Click" />
+                    </p>
+                </div>
+
+                <!-- Button for Projects Page -->
+                <div class="col-md-4">
+                    <h2>Projects</h2>
+                    <p>
+                        View my projects
+                    </p>
+                    <p>
+                        <asp:Button ID="btnProjects" runat="server" class="btn btn-default" Text="Projects &raquo;" OnClick="btnProjects_Click" />
+                    </p>
+                </div>
+
+                <!-- Button for GitHub -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>GitHub</h2>
+                        <p>
+                            Check out my Github!
+                        </p>
+                        <p>
+                            <a class="btn btn-default" href="https://www.github.com/gorbulus">Github &raquo;</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-
+        
+        
+        <div class="container">
             <!-- Button for Travel Locations -->
             <div class="row">
                 <div class="col-md-4">
@@ -93,4 +99,5 @@
                 </p>
                 </div>
             </div>
+        </div>
     </asp:Content>
