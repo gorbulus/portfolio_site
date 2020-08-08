@@ -197,6 +197,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
+    <Content Include="Images\JAZZY_MAIN_1.jpg" />
     <Content Include="Images\OwlLogo-01_250_250.jpg" />
     <Content Include="Projects.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
