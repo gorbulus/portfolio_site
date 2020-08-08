@@ -7,32 +7,49 @@
         Author:   William Ponton
         Description:  The Default Page for portfolio site.
         -->
-        <!-- Welcome Info -->
+        <!-- Top Header -->
         <div class="container">
-            <div class="col-md-12">
-                <p>
-                    Portfolio site information here
-                    <br />
-                    <br />
-                    Mission statement, goals, overview
-                </p>
+            <!-- Welcome Info -->
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Portfolio site information here
+                        <br />
+                        <br />
+                        Mission statement, goals, overview
+                    </p>
+                </div>
+            </div>
+
+            <!-- Links and icons -->
+            <!-- First row -->
+            <div class="row">
+                <!-- Email with subject line -->
+                <div class="col-md-4">
+                    <a href="mailto:waponton@gmail.com?subject=[Yo%20Will!]%20I%20saw%20your%20code%20and%20thought%20it%20was%20cool">💌 Email me</a>                 
+                </div>
+                
+                <!-- LinkedIn -->
+                <div class="col-md-4">
+                    <a href="https://www.linkedin.com/in/williampontoncfsp">📜 LinkedIn</a>
+                </div>
+
+                <!-- Github -->
+                <div class="col-md-4">
+                    <a href="https://github.com/gorbulus">💻 GitHub</a>
+                </div>
             </div>
         </div>
         
+        <!-- Second Row -->
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <!-- Button for ContactInfo Page -->
-                    <h2>Contact me</h2>
+                    <!-- Button for ContactInfo Page --> 
+                    <h2>Contact me</h2>    
                     <p>
-                        <a href="mailto:waponton@gmail.com?subject=[Yo%20Will!]%20I%20saw%20your%20code%20and%20thought%20it%20was%20cool">💌 Email me</a>
+                        Yo Will!
                     </p>
-                    <p>
-                        <a href="https://www.linkedin.com/in/williampontoncfsp">📜 LinkedIn</a>
-                    </p>
-                    <p>
-                        <a href="https://github.com/gorbulus">💻 GitHub</a>
-                    </p>                   
                     <p>
                         <asp:Button ID="btnContact" runat="server" Text="Contact &raquo;" class="btn btn-default" OnClick="btnContact_Click" />
                     </p>
@@ -45,7 +62,8 @@
                         View my projects
                     </p>
                     <p>
-                        <asp:Button ID="btnProjects" runat="server" class="btn btn-default" Text="Projects &raquo;" OnClick="btnProjects_Click" />
+                        <asp:Button ID="btnProjects" runat="server" class="myButton" Text="Projects &raquo;" OnClick="btnProjects_Click" />
+                        <!-- <asp:Button ID="Button1" runat="server" class="btn btn-default" Text="Projects &raquo;" OnClick="btnProjects_Click" /> -->
                     </p>
                 </div>
 
@@ -64,8 +82,29 @@
             </div>
         </div>
         
+        <div class="row">
+            <br />
+        </div>
         
         <div class="container">
+            <!-- Third row -->
+            <div class="row">
+                <!-- Travel locations -->
+                <div class="col-md-4">
+                    <a href="Travel.aspx">✈️ Travel</a>                 
+                </div>
+                
+                <!-- Food -->
+                <div class="col-md-4">
+                    <a href="Food.aspx">🍅 Food</a>
+                </div>
+
+                <!-- Dogs -->
+                <div class="col-md-4">
+                    <a href="Dogs.aspx">🐕 Dogs</a>
+                </div>
+            </div>
+
             <!-- Button for Travel Locations -->
             <div class="row">
                 <div class="col-md-4">
@@ -82,7 +121,7 @@
             <div class="col-md-4">
                 <h2>Food</h2>
                 <p>
-                    Food - recipes, stories, pictures!
+                    Recipes, pics!
                 </p>
                 <p>
                     <asp:Button ID="btnFood" runat="server" class="btn btn-default" Text="Food &raquo;" OnClick="btnFood_Click" />
@@ -92,7 +131,7 @@
                 <div class="col-md-4">
                 <h2>Dogs</h2>
                 <p>
-                    Check out pics of our Jazzy and Piper!
+                    Pictures of Jazzy and Piper!
                 </p>
                 <p>
                     <asp:Button ID="btnDogs" runat="server" class="btn btn-default" Text="Dogs &raquo;" OnClick="btnDogs_Click" />
