@@ -7,6 +7,21 @@
             -->
         <h2>Projects!</h2>
         <!-- Project images -->
+        <div class="row">
+            <asp:DropDownList ID="ddlTechnologies" runat="server" ToolTip="Filter by technology">
+                <asp:ListItem>Python</asp:ListItem>
+                <asp:ListItem>R</asp:ListItem>
+                <asp:ListItem>SQL</asp:ListItem>
+                <asp:ListItem>C#</asp:ListItem>
+                <asp:ListItem>C++</asp:ListItem>
+                <asp:ListItem>C</asp:ListItem>
+                <asp:ListItem>Dashboards</asp:ListItem>
+                <asp:ListItem>Power BI</asp:ListItem>
+                <asp:ListItem>Data Science</asp:ListItem>
+                <asp:ListItem>Jupyter Notebooks</asp:ListItem>
+        </asp:DropDownList>
+        </div>
+        
         <div class="row"">
             <!-- Wine Review Project -->
             <div class="col-md-4">
