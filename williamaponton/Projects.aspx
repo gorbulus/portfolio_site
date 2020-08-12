@@ -18,7 +18,6 @@
                 <asp:ListItem>Dashboards</asp:ListItem>
                 <asp:ListItem>Power BI</asp:ListItem>
                 <asp:ListItem>Data Science</asp:ListItem>
-                <asp:ListItem>Jupyter Notebooks</asp:ListItem>
         </asp:DropDownList>
         </div>
         
