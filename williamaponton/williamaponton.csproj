@@ -182,6 +182,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\siteStyles.css" />
+    <Content Include="Costa_Rica.aspx" />
+    <Content Include="Cuba.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Dogs.aspx" />
     <Content Include="favicon.ico" />
@@ -233,6 +235,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="States.aspx" />
     <Content Include="Travel.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -363,6 +366,20 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Costa_Rica.aspx.cs">
+      <DependentUpon>Costa_Rica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Costa_Rica.aspx.designer.cs">
+      <DependentUpon>Costa_Rica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cuba.aspx.cs">
+      <DependentUpon>Cuba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cuba.aspx.designer.cs">
+      <DependentUpon>Cuba.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -404,6 +421,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="States.aspx.cs">
+      <DependentUpon>States.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="States.aspx.designer.cs">
+      <DependentUpon>States.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Travel.aspx.cs">
       <DependentUpon>Travel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
