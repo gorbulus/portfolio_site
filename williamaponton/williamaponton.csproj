@@ -189,6 +189,8 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Food.aspx" />
+    <Content Include="Food_Articles.aspx" />
+    <Content Include="Food_Pics.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -206,6 +208,7 @@
     <Content Include="Images\IrazuCR_Panorama.jpg" />
     <Content Include="Images\LaPaz_Waterfall_Gardens.jpg" />
     <Content Include="Images\SanJoseDeNoche.jpg" />
+    <Content Include="Food_Recipes.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -401,11 +404,32 @@
     <Compile Include="Food.aspx.designer.cs">
       <DependentUpon>Food.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Food_Articles.aspx.cs">
+      <DependentUpon>Food_Articles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Food_Articles.aspx.designer.cs">
+      <DependentUpon>Food_Articles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Food_Pics.aspx.cs">
+      <DependentUpon>Food_Pics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Food_Pics.aspx.designer.cs">
+      <DependentUpon>Food_Pics.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Food_Recipes.aspx.cs">
+      <DependentUpon>Food_Recipes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Food_Recipes.aspx.designer.cs">
+      <DependentUpon>Food_Recipes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

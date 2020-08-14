@@ -21,15 +21,15 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <a href="Recipes.aspx">🌊 Recipes</a>
+                <a href="Food_Recipes.aspx">🌊 Recipes</a>
             </div>
 
             <div class="col-md-4">
-                <a href="Cuba.aspx">🌴 Food Pics</a>
+                <a href="Food_Pics.aspx">🌴 Food Pics</a>
             </div>
 
             <div class="col-md-4">
-                <a href="States.aspx">🎏 Food Articles</a>
+                <a href="Food_Articles.aspx">🎏 Food Articles</a>
             </div>
         </div>
     </div>
