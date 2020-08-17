@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <!--
         Filename: Default.aspx
-        Date:     7.30.2020
+        Date:     7.30.2020 (project start)
         Author:   William Ponton
         Description:  The Default Page for portfolio site.
         -->
@@ -25,12 +25,18 @@
         <!-- First row -->
         <div class="row">
             <div class="col-md-4">
+                <!-- Email me -->
+                <a href="mailto:waponton@gmail.com?subject=[Yo%20Will!]%20I%20saw%20your%20code%20and%20thought%20it%20was%20cool"</a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
             <div class="col-md-4">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/williampontoncfsp"</a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
             <div class="col-md-4">
+                <!-- Github -->
+                <a href="https://github.com/gorbulus"</a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
         </div>
@@ -98,12 +104,18 @@
         <!-- Third row -->
         <div class="row">
             <div class="col-md-4">
+                <!-- Travel -->
+                <a href="Travel.aspx"</a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
             <div class="col-md-4">
+                <!-- Food -->
+                <a href="Food.aspx"</a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
             <div class="col-md-4">
+                <!-- Dogs -->
+                <a href="Dogs.aspx"</a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
         </div>
