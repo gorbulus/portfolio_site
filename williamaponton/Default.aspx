@@ -26,17 +26,17 @@
         <div class="row">
             <div class="col-md-4">
                 <!-- Email me -->
-                <a href="mailto:waponton@gmail.com?subject=[Yo%20Will!]%20I%20saw%20your%20code%20and%20thought%20it%20was%20cool"</a>
+                <a href="mailto:waponton@gmail.com?subject=[Yo%20Will!]%20I%20saw%20your%20code%20and%20thought%20it%20was%20cool"></a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
             <div class="col-md-4">
                 <!-- LinkedIn -->
-                <a href="https://www.linkedin.com/in/williampontoncfsp"</a>
+                <a href="https://www.linkedin.com/in/williampontoncfsp"></a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
             <div class="col-md-4">
                 <!-- Github -->
-                <a href="https://github.com/gorbulus"</a>
+                <a href="https://github.com/gorbulus"></a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
         </div>
@@ -67,7 +67,7 @@
                     Yo Will!
                 </p>
                 <p>
-                    <asp:Button ID="btnContact" runat="server" Text="Contact &raquo;" class="btn btn-default" OnClick="btnContact_Click" />
+                    <asp:Button ID="btnContact" runat="server" Text="Contact &raquo;" class="myButton" OnClick="btnContact_Click" />
                 </p>
             </div>
 
@@ -84,16 +84,14 @@
             </div>
 
             <!-- Button for GitHub -->
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>GitHub</h2>
-                    <p>
-                        Check out my Github!
-                    </p>
-                    <p>
-                        <a class="btn btn-default" href="https://www.github.com/gorbulus">Github &raquo;</a>
-                    </p>
-                </div>
+            <div class="col-md-4">
+                <h2>GitHub</h2>
+                <p>
+                    Check out my Github!
+                </p>
+                <p>
+                    <a class="myButton" href="https://www.github.com/gorbulus">Github &raquo;</a>
+                </p>
             </div>
         </div>
         <!-- Line break -->
@@ -105,17 +103,17 @@
         <div class="row">
             <div class="col-md-4">
                 <!-- Travel -->
-                <a href="Travel.aspx"</a>
+                <a href="Travel.aspx"></a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
             <div class="col-md-4">
                 <!-- Food -->
-                <a href="Food.aspx"</a>
+                <a href="Food.aspx"></a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
             <div class="col-md-4">
                 <!-- Dogs -->
-                <a href="Dogs.aspx"</a>
+                <a href="Dogs.aspx"></a>
                 <img src="Images/OwlLogo-01_250_250.jpg" />
             </div>
         </div>
@@ -146,7 +144,7 @@
                     Check out our travels!
                 </p>
                 <p>
-                    <asp:Button ID="btnTravel" runat="server" class="btn btn-default" Text="Travel &raquo;" OnClick="btnTravel_Click" />
+                    <asp:Button ID="btnTravel" runat="server" class="myButton" Text="Travel &raquo;" OnClick="btnTravel_Click" />
                 </p>
             </div>
 
@@ -157,7 +155,7 @@
                     Recipes, pics!
                 </p>
                 <p>
-                    <asp:Button ID="btnFood" runat="server" class="btn btn-default" Text="Food &raquo;" OnClick="btnFood_Click" />
+                    <asp:Button ID="btnFood" runat="server" class="myButton" Text="Food &raquo;" OnClick="btnFood_Click" />
                 </p>
             </div>
             <!-- Button for Dogs stuff -->
@@ -167,15 +165,10 @@
                     Pictures of Jazzy and Piper!
                 </p>
                 <p>
-                    <asp:Button ID="btnDogs" runat="server" class="btn btn-default" Text="Dogs &raquo;" OnClick="btnDogs_Click" />
+                    <asp:Button ID="btnDogs" runat="server" class="myButton" Text="Dogs &raquo;" OnClick="btnDogs_Click" />
                 </p>
             </div>
         </div>
-
-        <div class="jumbotron" style="background-image: url('Images/IrazuCR_Panorama.jpg')">
-                <h1>W. A. Ponton</h1>
-                <p class="lead">Tech &bull; Art &bull; Food</p>
-            </div>
         <!-- End container -->
     </div>
 </asp:Content>

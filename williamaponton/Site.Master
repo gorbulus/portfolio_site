@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="williamaponton.SiteMaster" %>
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="williamaponton.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -12,13 +12,15 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
+    
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <!-- Adding the Bootstrap CSS Classes -->
     <link href="Content/normalize.css" rel="stylesheet" />
     <!-- Adding Normalize -->
     <link href="Content/siteStyles.css" rel="stylesheet" />
-    <!-- Adding quoteStyles.css -->
+    <!-- Adding siteStyles.css -->
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <!-- Some JavaScript -->
     <script src="Scripts/bootstrap.min.js"></script>
